@@ -1,0 +1,109 @@
+/* * {
+    box-sizing: border-box;
+} */
+body {
+    margin: 0;
+    background-color: #ffffd2;
+}
+#myVideo {
+    width: 100%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% ;
+}
+h1 {
+    color:#aa96da;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.business {
+    color: #a8d8ea;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.sweet {
+    color:#aa96da;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.twocakes {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cake {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    flex: 1;
+}
+
+h3 {
+    color:#52616b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.imgcake {
+    width: 200px;
+}
+.ingredients {
+    background-color:#ffffd2;
+    color: #7c7575;
+    margin: 20px;
+}
+.price {
+    color:#52616b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.delprice {
+    background-color: #fbb;
+}
+
+.insprice {
+    display: inline-block;
+    transform: rotate(-7deg);
+}
+.btn {
+    background-color: #aa96da;
+    color: #ffffd2;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+
+@media(min-width:501px) and (max-width:800px) {
+    .twocakes {
+        flex-wrap: wrap;
+    }
+    .business {
+        font-size: 15px;
+    }
+    .sweet {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:499px) {
+    .twocakes {
+        flex-wrap: wrap;
+    }
+    .business {
+        font-size: 15px;
+    }
+    .sweet {
+        font-size: 15px;
+    }
+}
